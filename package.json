@@ -1,0 +1,25 @@
+{
+  "name": "raymatrix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server --port 10001",
+    "start": "npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actiqx/raymatrix.git"
+  },
+  "author": "priyatosh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/actiqx/raymatrix/issues"
+  },
+  "devDependencies": {
+    "lite-server": "^1.3.1"
+  },
+  "homepage": "https://github.com/actiqx/raymatrix#readme",
+  "dependencies": {}
+}
