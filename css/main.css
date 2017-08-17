@@ -1,0 +1,21 @@
+.article-head{
+    color: #fff;
+}
+.article-head:after{
+     content: "";
+        display: block;
+        width: 75px;
+        height: 2px;
+        background: #ffc426;
+        margin: 3vh auto 0;
+}
+    .head-wrap{
+
+    }
+   .head-wrap address{
+        display: block;
+        line-height: 18px;
+        margin-top: 3vh;
+        margin-bottom: 0;
+        font-style: normal;
+    }

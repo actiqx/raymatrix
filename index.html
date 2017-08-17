@@ -5,8 +5,9 @@
     <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="css/main.css" rel="stylesheet">
     <link href="css/materialize.css" rel="stylesheet">
-
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="js/vendor/jquery.js"></script>
@@ -32,21 +33,17 @@
                 <a id="logo-container" ui-sref="app" class="brand-logo  white-text">Logo</a>
                 <ul class="right hide-on-med-and-down main-navigation">
                    
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Supplier</a></li>
-                    <li><a href="#">Software</a></li>
-                    <li><a href="#">Online Services</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a ui-sref="about">About Us</a></li>
+                    <li><a ui-sref="service">Services</a></li>
+                    <li><a ui-sref="supplier">Supplier</a></li>
+                    <li><a ui-sref="contact">Contact Us</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav  white-text">
-                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Supplier</a></li>
-                    <li><a href="#">Software</a></li>
-                    <li><a href="#">Online Services</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                     <li><a ui-sref="app">Home</a></li>
+                    <li><a ui-sref="about">About Us</a></li>
+                    <li><a ui-sref="service">Services</a></li>
+                    <li><a ui-sref="supplier">Supplier</a></li>
+                    <li><a ui-sref="contact">Contact Us</a></li>
                 </ul>
                 <a href="#" data-activates="nav-mobile" class="button-collapse text-darken-4 grey-text"><i class="material-icons white-text">menu</i></a>
             </div>

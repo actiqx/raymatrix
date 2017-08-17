@@ -12,14 +12,25 @@
 
       .state('app', {
         url: '/app',
-       
         templateUrl: 'template/home.html'
        
 
       })
-    .state('service',{
+      .state('about',{
+         url: '/about',
+        templateUrl: 'template/about.html'
+    })
+      .state('service',{
          url: '/service',
-        templateUrl: 'temolate/service.html'
+        templateUrl: 'template/service.html'
+    })
+        .state('supplier',{
+         url: '/supplier',
+        templateUrl: 'template/supplier.html'
+    })
+    .state('contact',{
+         url: '/contact',
+        templateUrl: 'template/contact.html'
     });
        
 
