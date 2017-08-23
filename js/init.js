@@ -1,8 +1,33 @@
  $(document).ready(function(){
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
-    $('.scrollspy').scrollSpy();
-    $('.slider').slider();
+
+
+                   $('.avTile').hover(function() {
+    $('.avFeature').toggleClass('active');
+  });
+  $('.firewallTile').hover(function() {
+    $('.firewallFeature').toggleClass('active');
+  });
+  $('.backupTile').hover(function() {
+    $('.backupFeature').toggleClass('active');
+  });
+  $('.vulnerabilitiesTile').hover(function() {
+    $('.vulnerabilitiesFeature').toggleClass('active');
+  });
+  $('.spamfilterTile').hover(function() {
+    $('.spamfilterFeature').toggleClass('active');
+  });
+  $('.smpTile').hover(function() {
+    $('.smpFeature').toggleClass('active');
+  });
+  $('.tuneupTile').hover(function() {
+    $('.tuneupFeature').toggleClass('active');
+  });
+  $('.idpTile').hover(function() {
+    $('.idpFeature').toggleClass('active');
+  });
+  $('.parentalTile').hover(function() {
+    $('.parentalFeature').toggleClass('active');
+  });
  });
  $(document).ready(function () {
             $(document).on("scroll", onScroll);
@@ -24,19 +49,23 @@
                     $(document).on("scroll", onScroll);
                 });
             });
+
+
         });
 
-        function onScroll(event) {
-            var scrollPos = $(document).scrollTop();
-            $('.navbar-nav li a').each(function () {
-                var currLink = $(this);
-                var refElement = $(currLink.attr("href"));
-                if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-                    $('.navbar-nav li a').removeClass("active");
-                    currLink.addClass("active");
-                }
-                else {
-                    currLink.removeClass("active");
-                }
-            });
-        }
+        // function onScroll(event) {
+        //     var scrollPos = $(document).scrollTop();
+        //     $('.navbar-nav li a').each(function () {
+        //         var currLink = $(this);
+        //         var refElement = $(currLink.attr("href"));
+        //         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+        //             $('.navbar-nav li a').removeClass("active");
+        //             currLink.addClass("active");
+        //         }
+        //         else {
+        //             currLink.removeClass("active");
+        //         }
+        //     });
+        // }
+
+       
