@@ -1,45 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/main.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.css" >
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/css/mdb.min.css" rel="stylesheet">
-     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 
-     <!-- <script src="js/vendor/materialize.js"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"
-        crossorigin="anonymous"></script>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.css">
+    <link href="css/mdb.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+    <!-- <script src="js/vendor/materialize.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/js/mdb.min.js"></script>
     <script src="js/init.js"></script>
-     <script src="js/vendor/angular.js"></script>
-    <script src="js/vendor/angular-materialize.js"></script>
-    <script src="js/vendor/angular-ui-router.js"></script>
-    <script src="js/vendor/angular-animate.js"></script>
-    <script src="js/vendor/angular-sanitize.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/app/app.route.js"></script>
-    </head>
-    <body >
-       <!--Navbar-->
+
+</head>
+
+<body>
+    <!--Navbar-->
     <nav class="navbar navbar-toggleable-md navbar-dark fixed-top scrolling-navbar">
         <div class="container">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1"
+                aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" >
-                <strong>Navbar</strong>
+            <a class="navbar-brand">
+                <strong>RayMatrix</strong>
             </a>
             <div class="collapse navbar-collapse" id="navbarNav1">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#whyus">Why Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About Us</a>
@@ -51,7 +50,7 @@
                         <a class="nav-link" href="#contact">Contact Us</a>
                     </li>
                 </ul>
-                
+
             </div>
         </div>
     </nav>
@@ -59,19 +58,20 @@
 
 
 
-         <!--Carousel Wrapper-->
-        
-             
-      
+    <!--Carousel Wrapper-->
+
+
+
     <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
         <!--Indicators-->
         <ol class="carousel-indicators">
             <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
             <li data-target="#video-carousel-example2" data-slide-to="1"></li>
             <li data-target="#video-carousel-example2" data-slide-to="2"></li>
+            <li data-target="#video-carousel-example2" data-slide-to="3"></li>
         </ol>
         <!--/.Indicators-->
-   <!--Slides-->
+        <!--Slides-->
         <div class="carousel-inner" role="listbox">
             <!--First slide-->
             <div class="carousel-item active">
@@ -90,7 +90,8 @@
                     <div class="flex-center animated fadeIn">
                         <ul>
                             <li>
-                                <h1 class="h1-responsive">This is a cool, responsive template</h1></li>
+                                <h1 class="h1-responsive">This is a cool, responsive template</h1>
+                            </li>
                             <li>
                                 <p>The slides should switch on auto</p>
                             </li>
@@ -152,7 +153,8 @@
                     <div class="flex-center animated fadeInDown">
                         <ul>
                             <li>
-                                <h1 class="h1-responsive">All this with MDB - powerful and free UI kit</h1></li>
+                                <h1 class="h1-responsive">All this with MDB - powerful and free UI kit</h1>
+                            </li>
                             <li>
                                 <p>Join our community</p>
                             </li>
@@ -165,12 +167,12 @@
                 <!--/.Caption-->
             </div>
             <!--/Third slide-->
-             <!--4th slide-->
+            <!--4th slide-->
             <div class="carousel-item">
                 <!--Mask color-->
                 <div class="view hm-black-light">
                     <!--Video source-->
-                    <video class="video-full" autoplay loop muted >
+                    <video class="video-full" autoplay loop muted>
                         <source src="./videos/wholesale.mp4" type="video/mp4" />
                     </video>
                     <div class="mask"></div>
@@ -208,71 +210,246 @@
         </a>
         <!--/.Controls-->
     </div>
-    
-    <!--/.Carousel Wrapper-->
-  <section class="about-section bg-color" id="about">
+    <section class="service-section" id="whyus">
         <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
-                    <h3>About</h3>
-                    <p>Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first web sites.</p>
-                    <p>Bootstrap is completely free to download and use!</p> <a href="#" class="btn btn-default-new">Start learning Bootstrap</a> </div>
-            </div>
-        </div>
-    </section>
-    <section class="service-section" id="service">
-        <div class="container">
-             <h3>service</h3>
-            
+            <h3>RayMatrix</h3>
+
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-items">
                         <div class="icon">
                             <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+                            <img src="images/handshake.png" alt="" class="circle">
                         </div>
-                        <h4><a href="#">Speed of Development</a></h4>
-                        <p>Rather than coding from scratch, Bootstrap enables you to utilize ready made blocks of code to help you get started.</p>
+                        <h4>Why Us</h4>
+                        <p>It&#39;s important to be first in your niche and profitable which means being both speedy and efficient,
+                            making Technical products your obvious choice. We provide fast, customized development, at minimal
+                            cost, using the latest technology. We also believe that proper employment management must include
+                            performance management, training and development, recruiting and selection.</p>
                     </div>
                 </div>
-                
+
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-items">
                         <div class="icon">
                             <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                            <img src="images/target.png" alt="" class="circle">
                         </div>
-                        <h4><a href="#"> Responsiveness</a></h4>
-                        <p>Creating mobile ready websites is a breeze with Bootstrap thanks to the fluid grid layout that dynamically adjusts to the proper screen resolution.</p>
+                        <h4> Objective</h4>
+                        <p> Our objective is to consistently deliver highly qualified Technical Consultants to help our clients
+                            achieve strategic objectives by maximizing their use of technology. We provide a wide range of
+                            services including design, development and integration of IT projects and other services.</p>
                     </div>
                 </div>
-                
+
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-items">
                         <div class="icon">
                             <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <img src="images/quality.png" alt="" class="circle">
                         </div>
-                        <h4><a href="#">Consistency</a></h4>
-                        <p>Bootstrap ensures consistency regardless of who’s working on the project. </p>
+                        <h4>We Believe</h4>
+                        <p> We strongly believe in quality services at competitive rates. Of course, earning profit is a motive
+                            but not our primary aim. We earn what we deserve. We also believe in speaking up and being heard.
+                            Our employees have a right to ask questions and raise issues which are hindering the growth of
+                            our organization. Their individuality is taken care of and a safe environment is ensured both
+                            physically and mentally. </p>
                     </div>
                 </div>
-                
+
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-items">
                         <div class="icon">
                             <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
+                             <img src="images/light-bulb.png" alt="" class="circle">
                         </div>
-                        <h4><a href="#">Customizable</a></h4>
-                        <p>Bootstrap can be tailor made according to the specifications of your project.</p>
+                        <h4>Our Strength</h4>
+                        <p>RayMatrix Technology recruiters and management personnel have strong technical backgrounds and are
+                            continuously trained on new and emerging technologies to ensure seamless communication among
+                            clients, vendors and contract employees. Our personnel rise to the challenge regardless of the
+                            complexities of your business environment.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!--/.Carousel Wrapper-->
+    <section class="about-section bg-color" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 ">
+                    <h3>About US</h3>
+                    <h4>WHO WE ARE</h4>
+                    <p> RayMatrix Technology is a Software development company and wholesale dealer in India. We are reliable
+                        Software, IT solution and other services providers for the various big and small companies around
+                        the globe. Ours is a team of enthusiastic professionals dedicated to render solutions beyond the
+                        expectations of the clients.</p>
+                    <h4>WHAT WE DO</h4>
+                    <p>
+                        We are committed to provide cost effective premium quality services. Rather than your business service provider, we value
+                        associations that make us close to the heart of many. RayMatrix will be with you on every move and
+                        we love to take up challenges that could bring in the best out of us for our clients.
+                    </p>
+
+
+                </div>
+            </div>
+    </section>
+    <section class="service-section" id="service">
+        <div class="container">
+            <h3>service</h3>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-items">
+                        <div class="icon">
+                            <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+                            <img src="images/laptop.png" alt="" class="circle">
+                        </div>
+                        <h4>Software Development</h4>
+                        <button type="button" class="btn btn-deep-orange waves-effect waves-light" onclick="location.href='services.html';">Read More...</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-items">
+                        <div class="icon">
+                            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                            <img src="images/login.png" alt="" class="circle">
+                        </div>
+                        <h4> Securtity Services</h4>
+                        <button type="button" class="btn btn-deep-orange waves-effect waves-light" onclick="location.href='services.html';">Read More...</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-items">
+                        <div class="icon">
+                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            <img src="images/cart.png" alt="" class="circle">
+                        </div>
+                        <h4>Wholesale Services</h4>
+                       <button type="button" class="btn btn-deep-orange waves-effect waves-light" onclick="location.href='services.html';">Read More...</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-items">
+                        <div class="icon">
+                            <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
+                            <img src="images/layers.png" alt="" class="circle">
+                        </div>
+                        <h4>Graphics Design</h4>
+
+                        <button type="button" class="btn btn-deep-orange waves-effect waves-light" onclick="location.href='services.html';">Read More...</button>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-items">
+                        <div class="icon">
+                            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                            <img src="images/data-process.png" alt="" class="circle">
+                        </div>
+                        <h4> Data Processing</h4>
+
+                        <button type="button" class="btn btn-deep-orange waves-effect waves-light" onclick="location.href='services.html';">Read More...</button>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-items">
+                        <div class="icon">
+                            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                            <img src="images/analytics.png" alt="" class="circle">
+                        </div>
+                        <h4> SEO</h4>
+
+                       <button type="button" class="btn btn-deep-orange waves-effect waves-light" onclick="location.href='services.html';">Read More...</button>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-items">
+                        <div class="icon">
+                            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                            <img src="images/marketing.png" alt="" class="circle">
+                        </div>
+                        <h4> Advertising</h4>
+
+                        <button type="button" class="btn btn-deep-orange waves-effect waves-light" onclick="location.href='services.html';">Read More...</button>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-items">
+                        <div class="icon">
+                            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                            <img src="images/payment-method.png" alt="" class="circle">
+                        </div>
+                        <h4>Online Services</h4>
+
+                       <button type="button" class="btn btn-deep-orange waves-effect waves-light" onclick="location.href='services.html';">Read More...</button>
                     </div>
                 </div>
                 
-                
+
             </div>
         </div>
     </section>
 
     <!--/.Main layout-->
-<!-- Content -->
-    
+    <!-- Content -->
+            
+<!--Modal: Contact form-->
+<div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog cascading-modal" role="document">
+        <!--Content-->
+        <div class="modal-content">
+
+            <!--Header-->
+            <div class="modal-header deep-orange darken-3  white-text">
+                <h4 class="title"><i class="fa fa-pencil"></i> Contact form</h4>
+                <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <!--Body-->
+            <div class="modal-body mb-0">
+                <div class="md-form form-sm">
+                    <i class="fa fa-envelope prefix"></i>
+                    <input type="text" id="form19" class="form-control">
+                    <label for="form19">Your name</label>
+                </div>
+
+                <div class="md-form form-sm">
+                    <i class="fa fa-lock prefix"></i>
+                    <input type="password" id="form20" class="form-control">
+                    <label for="form20">Your email</label>
+                </div>
+
+                <div class="md-form form-sm">
+                    <i class="fa fa-tag prefix"></i>
+                    <input type="text" id="form21" class="form-control">
+                    <label for="form21">Subject</label>
+                </div>
+
+                <div class="md-form form-sm">
+                    <i class="fa fa-pencil prefix"></i>
+                    <textarea type="text" id="form8" class="md-textarea mb-0"></textarea>
+                    <label for="form8">Your message</label>
+                </div>
+
+                <div class="text-center mt-1-half">
+                    <button class="btn btn-info mb-2">Send <i class="fa fa-send ml-1"></i></button>
+                </div>
+
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!--Modal: Contact form-->
+
 
 
     <!--Footer-->
@@ -284,10 +461,15 @@
 
                 <!--First column-->
                 <div class="col-lg-3 offset-lg-1 hidden-lg-down">
-                    <h5 class="title">ABOUT MATERIAL DESIGN</h5>
-                    <p>Material Design (codenamed Quantum Paper) is a design language developed by Google. </p>
+                    <h5 class="title">ABOUT RAYMATRIX</h5>
+                    <p>RayMatrix Technology is a Software development company and wholesale dealer in India</p>
 
-                    <p>Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS, and JS framework - Bootstrap.</p>
+                    <p>
+                        <h5 class="widget_title">Contact Info</h5>
+                        <div class="address"><strong>Address:</strong> 58911 Weinhaus, 85000 Viena, Bhubaneswar </div>
+                        <div class="phone"><strong>Telephones:</strong>+91-9439053106</div>
+                        <div class="email"><strong>E-mail:</strong> raymatrixtechnology@gmail.com</div>
+                    </p>
                 </div>
                 <!--/.First column-->
 
@@ -295,13 +477,7 @@
 
                 <!--Second column-->
                 <div class="col-lg-2 col-md-4 offset-lg-1">
-                    <h5 class="title">First column</h5>
-                    <ul>
-                        <li><a href="#!">Link 1</a></li>
-                        <li><a href="#!">Link 2</a></li>
-                        <li><a href="#!">Link 3</a></li>
-                        <li><a href="#!">Link 4</a></li>
-                    </ul>
+                    
                 </div>
                 <!--/.Second column-->
 
@@ -309,13 +485,7 @@
 
                 <!--Third column-->
                 <div class="col-lg-2 col-md-4">
-                    <h5 class="title">Second column</h5>
-                    <ul>
-                        <li><a href="#!">Link 1</a></li>
-                        <li><a href="#!">Link 2</a></li>
-                        <li><a href="#!">Link 3</a></li>
-                        <li><a href="#!">Link 4</a></li>
-                    </ul>
+                    
                 </div>
                 <!--/.Third column-->
 
@@ -323,12 +493,16 @@
 
                 <!--Fourth column-->
                 <div class="col-lg-2 col-md-4">
-                    <h5 class="title">Third column</h5>
+                    <h5 class="title">Connect US</h5>
                     <ul>
-                        <li><a href="#!">Link 1</a></li>
-                        <li><a href="#!">Link 2</a></li>
-                        <li><a href="#!">Link 3</a></li>
-                        <li><a href="#!">Link 4</a></li>
+                         
+	            
+	            
+	            
+                        <li><a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a></li>
+                        <li><a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a></li>
+                        <li><a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a></li>
+                        <li><a data-toggle="modal" data-target="#contactmodal"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a></li>
                     </ul>
                 </div>
                 <!--/.Fourth column-->
@@ -337,31 +511,22 @@
         </div>
         <!--/.Footer Links-->
 
-        <hr>
+       
 
-  <!--Call to action-->
-  <div class="call-to-action">
-    <h4> Created with Material Design for Bootstrap</h4>
-    <br>
-    <h5>Get our UI KIT for free</h5>
-    <ul>
-      <li><a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-info">Download now!</a></li>
-      <li><a target="_blank" href="http://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-default">Learn more</a></li>
-    </ul>
-  </div>
-  <!--/.Call to action-->
-
+       
         <!--Copyright-->
         <div class="footer-copyright">
             <div class="container-fluid">
-                © 2015 Copyright: <a href="http://www.MDBootstrap.com"> MDBootstrap.com </a>
-
+                © 2017 Copyright: <a href="#"> www.raymatrix.com </a>
+               
             </div>
+
         </div>
         <!--/.Copyright-->
 
     </footer>
     <!--/.Footer-->
 
-    </body>
+</body>
+
 </html>

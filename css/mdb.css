@@ -6975,9 +6975,9 @@ body.scrollable {
     margin: -2rem 1rem 1rem 1rem;
     padding: 1.5rem;
     border: none;
-    -webkit-flex-direction: column;
+    /* -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column;
+    flex-direction: column; */
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
